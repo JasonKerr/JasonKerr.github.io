@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device=width,initial-scale=1,viewport-fit=cover">
     <title>Jason's Crazy Game</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <Script src="index.js"></script>
    </head>
    <body>
@@ -18,13 +18,24 @@
   
       <div class="container" id="main">
           <p>Learn more about our company.</p><br />
-          <select id="city-select">
-              <option value="">Select a city</option>
-              <option value="amsterdam">Amsterdam</option>
-              <option value="berlin">Berlin</option>
+          <select id="class-select">
+              <option value="">Select a class</option>
+              <option value="warrior">Warrior</option>
+              <option value="expert">Expert</option>
+              <option value="sage">Sage</option>
           </select>
-          <div class="card"><div><span id="count"></span> citizens can vote in <span id="city-name"></span></div></div>
+          <div class="card"><div><span id="count"></span> Class description: <span id="class-description"></span></div></div>
       </div>
+
+      <div class="container" id="main">
+            <select id="job-select">
+            <option value="">Select a job</option>
+            <option value="guardian">Guardian</option>
+            <option value="slayer">Slayer</option>
+            <option value="support">Support</option>
+        </select>
+        <div class="card"><div><span id="count"></span> Job description: <span id="job-description"></span></div></div>
+    </div>
   
       <footer id="footer-wrapper">
           <a href="about.html" target="_blank">About us</a>

@@ -6,7 +6,7 @@ city.addEventListener("change", () => {
     if (!city.value) {
         return false;
     }
-    fetch(`https://jsdemo-3f387-default-rtdb.europe-west1.firebasedatabase.app/city-stats/${city.value}.json`)
+    fetch(`https://jasonkerr.github.io/${selectClass.value}.json`)
         .then(response => response.json())
         .then(data => {
             console.log(data);

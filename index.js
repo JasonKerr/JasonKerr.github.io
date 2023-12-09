@@ -17,14 +17,3 @@ city.addEventListener("change", () => {
             count.textContent = getVotersCount(data);
         });
 });
-
-/**
- * @param {number[]} ages
- */
-function getVotersCount(ages) {
-    console.log(ages);
-    const legalVotingAges = ages.filter(function(age) {
-        return age >= 18;
-    });
-    return legalVotingAges.length;
-}

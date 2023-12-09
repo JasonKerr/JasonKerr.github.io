@@ -1,4 +1,4 @@
-import {getVotersCount} from "./stats.js";
+import {getVotersCount} from "/stats.js";
 
 const  = document.querySelector("#primary-job-select");
 const count = document.querySelector("#count");
